@@ -22,7 +22,7 @@ app.get('/players', function(req, res){
     res.end(" lang="+ query.lang);
     //res.send(JSON.stringify(query));
 });
-var port = process.env.npm_package_config_port || 3000; 
+var port = process.env.PORT || 3000; 
 app.listen(port, function(){
     console.log("This Server is running on port :" + port);
 });
