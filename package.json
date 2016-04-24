@@ -1,0 +1,23 @@
+{
+  "name": "0npm",
+  "version": "1.0.0",
+  "description": "A demo app about npm and package json",
+  "main": "app.js",
+  "scripts": {
+    "abc": "ls",
+    "test": "nodemon appExp0.js",
+    "preabc" : "node -v",
+    "postabc" : "npm -v"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "config" : {
+      "port" : "5000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
