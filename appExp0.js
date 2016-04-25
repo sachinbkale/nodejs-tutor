@@ -17,6 +17,7 @@ app.get('/players/:name/:lang', function(req, res){
     res.end(" lang="+ req.params.lang); 
 });
 
+//https://tranquil-retreat-63662.herokuapp.com/players?name=sachin&lang=english
 app.get('/players', function(req, res){
     var query = req.query;
     console.log("query value :" + JSON.stringify(query));
