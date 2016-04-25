@@ -15,7 +15,7 @@
   "config" : {
       "port" : "5000"
   },
-  "author": "",
+  "author": "Sachin Kale",
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.4"
