@@ -11,6 +11,7 @@ app.get('/', function(req, res){
 });
 
 //REST URL
+//https://tranquil-retreat-63662.herokuapp.com/players/sachin/english
 app.get('/players/:name/:lang', function(req, res){
     res.write("name="+ req.params.name);
     res.end(" lang="+ req.params.lang); 
